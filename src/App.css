@@ -1,0 +1,292 @@
+body {
+  background-color: #191919;
+  height: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 30px;  
+}
+
+.link {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-family: 'Inter', sans-serif;  
+  font-weight: bolder;
+}
+
+.link:hover {
+  color:#ce1212;
+}
+
+.logo {
+  border-radius: 50%;
+  width: 150px;
+  margin-top: 20px;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  color: white;
+  font-size: 42px;
+}
+
+h2, h3 {
+  font-family: 'Inter', sans-serif;
+  color: white;
+  font-size: 25px;  
+}
+
+span {
+  color: #ce1212;
+}
+
+.main-footer {
+  display: flex;
+  justify-content: space-between;    
+  background-color: #ce1212;
+  opacity: 0.7;
+  width: 100%; 
+  bottom: 0;  
+}
+
+.par {
+  margin: 10px;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  }
+
+  .content-wrap {
+    flex: 1;
+  }
+  
+  .home-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+  }
+
+  .view-menu {    
+    color: #ce1212;   
+    text-decoration: none;  
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;  
+    font-weight: bolder;    
+  }
+
+  .view-menu:hover {
+    color: white;
+  }
+  
+  .cont {
+    margin-top: 100px;
+  }
+  
+  .text {
+    color: white;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif; 
+  }  
+
+  .containerMenu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 15px;
+  }    
+
+  .btnFilter {
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;     
+    text-transform: uppercase;    
+    font-size: 20px;        
+    border: none;
+    padding: 10px;
+    background-color: white;
+  }
+
+  .btnFilter:hover {
+    background-color: #ce1212;
+    color: #fff;
+  }
+
+  .categories {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    flex-wrap: wrap;
+  }
+  
+  .containerAbout {
+    display: flex;
+    flex-wrap: wrap;              
+  }
+
+  .pictures {
+    display: flex;
+    flex: 1;
+    margin-bottom: 5px;           
+  }
+
+  .about {
+    flex: 1;    
+  }
+
+  .btnBackNext {     
+    color: white;    
+    border: none;
+    background-color: #191919;  
+  }
+
+    .containerContact {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;  
+  }   
+
+  input {
+    padding: 20px;     
+    margin: 12px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px; 
+    width: 750px;        
+  }
+  
+  .form-contact {
+    background-image: url(contact-us.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+    margin: 20px;
+    border-radius: 50px;     
+  }
+
+  .form-reserve {
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    flex: 1;
+    margin: 40px;
+  }
+
+  .reserve-img {
+    flex: 1;
+    margin: 40px;    
+  }
+
+  .buttons {
+    font-family: 'Inter', sans-serif; 
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 20px;    
+    margin-top: 30px;
+    letter-spacing: 2px;
+    align-self: center;
+    border: none;     
+  }
+
+  .btn-reserve {
+    background-color: #ce1212;    
+    color: #fff;            
+  }
+
+  .btn-contact {
+    background-color: white;
+    color: red;   
+    border-radius: 30px;          
+  }
+
+  .heading {
+    align-self: center;
+  }  
+
+  .sushi-image {
+    margin-bottom: 10px;
+  }
+
+  .btnShowMore {
+    background-color: #191919;
+    color: red;
+    border: none;
+    font-size: 28px;
+    font-family: 'Inter', sans-serif; 
+    padding: 0;
+  }
+  
+  @media all and (max-width: 500px) {
+    nav {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 0px;
+    }
+
+    .link {
+      font-size: 20px;
+      padding: 5px;
+    }
+    
+    .logo {      
+      width: 100px;
+      margin-top: 0px;
+    }
+
+    h1 {
+      font-size: 35px;      
+    }
+
+    .cont {
+      margin: 10px;
+      text-align: center;     
+    }
+
+    hr {
+      display: none; 
+    }
+
+    .text {
+      font-size: 20px;
+    }
+
+    .sushi-image, .sushiItem, .sushi-variety, .reserve-img {
+      width: 300px;
+    }
+        
+    .sushiItem {
+      margin: 10px;  
+    }
+
+    .reserve-img {
+      margin: 0px;
+    }  
+
+    .btn-contact {
+      margin: 10px;
+    }
+
+    .btnShowMore {      
+      font-size: 20px;      
+    }
+
+    .pictures {
+      display: flex;
+      justify-content: center;
+    }
+
+    .about {
+      margin: 10px;
+    }
+  }
