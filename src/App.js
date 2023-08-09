@@ -27,7 +27,7 @@ function App() {
               <Link to="/menu" className="link">Menu</Link>
               <Link to="/about" className="link">About us</Link>              
               <Link to="/contact" className="link">Contact us</Link>            
-              <Link to="/reservations" className="link">Reservations</Link>              
+              <Link to="/reservations" className="link">Reservations</Link>                              
           </nav>
         <Routes>
           <Route path="/menu" element={<Menu/>}/>

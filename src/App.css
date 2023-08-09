@@ -169,8 +169,7 @@ span {
   .form-contact {
     background-image: url(contact-us.jpg);
     background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.5;
+    background-position: center;    
     margin: 20px;
     border-radius: 50px;     
   }
@@ -200,14 +199,26 @@ span {
   }
 
   .btn-reserve {
-    background-color: #ce1212;    
-    color: #fff;            
+    background-color: red;    
+    color: #fff;
+    border-radius: 10px;            
   }
+
+  .btn-reserve:hover {
+    background-color:white;
+    color: red;
+      }
 
   .btn-contact {
     background-color: white;
     color: red;   
     border-radius: 30px;          
+  }
+
+  .btn-contact:hover {
+    background-color:red;
+    color: white;
+    border: solid 1px red;
   }
 
   .heading {
