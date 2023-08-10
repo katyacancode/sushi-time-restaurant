@@ -36,10 +36,11 @@ h1 {
   font-size: 42px;
 }
 
-h2, h3 {
+.heading {
   font-family: 'Inter', sans-serif;
   color: white;
   font-size: 25px;  
+  align-self: center;  
 }
 
 span {
@@ -220,10 +221,6 @@ span {
     color: white;
     border: solid 1px red;
   }
-
-  .heading {
-    align-self: center;
-  }  
 
   .sushi-image {
     margin-bottom: 10px;

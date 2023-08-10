@@ -6,7 +6,7 @@ function Reservations() {
             <img className="reserve-img" src={image} alt="sushi" width="600px"/>        
 
             <form className="form-reserve">
-                <h2 className="heading">RESERVE A TABLE</h2>            
+                <h1 className="heading">RESERVE A TABLE</h1>            
                 <input type="text" placeholder="Number of People"/>           
                 <input type="text" placeholder="Date"/>            
                 <input type="text"  placeholder="Time"/>        

@@ -31,7 +31,7 @@ function About() {
     return(
     <div>
         <div className="containerContact">
-            <h2>ABOUT US</h2>
+            <h1 className="heading">ABOUT US</h1>
         </div>
 
         <div className="containerAbout">

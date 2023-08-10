@@ -22,8 +22,8 @@ function Menu() {
                 return(                
                     <div key={id}>
                         <img className="sushiItem" src={`./${img}.jpg`} alt="sushi" width="400px"/>
-                        <h2>{name}</h2>
-                        <h3>${price.toFixed(2)}</h3>
+                        <p className="heading">{name}</p>
+                        <p className="heading">${price.toFixed(2)}</p>
                     </div>                
             )
         }))}
